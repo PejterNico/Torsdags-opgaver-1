@@ -1,0 +1,15 @@
+// Task 7
+
+// 7.a
+
+void setup (){
+  
+  int input;
+  for (input = 0; input < 21; input = input+1)
+    println(input);
+    
+    
+
+  
+}
+  

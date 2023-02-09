@@ -1,0 +1,47 @@
+// task 3 
+
+// 3.a
+void setup (){
+ int a = 5;
+ int b = 11;
+ 
+ if (a == 10 || b == 10) {
+ println("succes");
+ } else if (a != 10 || b != 10)
+ println("failure!"); 
+} 
+
+// 3.b 
+
+void setup (){
+int min = 5; 
+int max = 15;
+
+if (min <= 10 && max >= 10){
+  println("Success");
+} else println("faliure");
+}
+
+// 3.c
+
+void setup(){
+  int x = 10;
+  int y = 9;
+  int z = 6;
+  String fail = "failure" ;
+  String suc = "sucsess" ;
+  
+  if (x==10 || x==20 || x==30) {
+    println(fail);
+  } else if (y==10 || y==20 || y==30) {
+    println(fail);
+  } else if (z==10 || z==20 || z==30) {
+    println(fail);
+  } else if (x + y + z == 30) {
+    println(suc);
+  } else {
+    print(fail);
+  }
+  
+  
+}
